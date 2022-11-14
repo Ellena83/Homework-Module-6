@@ -1,2 +1,3 @@
 # Homework-Module-6
-Task 10 is not ready (... but i tried to do)
+
+Выполнено 36 блоков автопроверки в соответствии с заданными параметрами.
