@@ -7,7 +7,7 @@
 ## Задание 1
 
 В HTML есть список категорий `ul#categories`.
-`<ul id="categories">
+<ul id="categories">
   <li class="item">
     <h2>Animals</h2>
     <ul>
@@ -35,7 +35,7 @@
       <li>Node.js</li>
     </ul>
   </li>
-</ul>`
+</ul>
 
 Написан скрипт, который:
 
@@ -106,11 +106,11 @@ Elements: 5
 
 Счетчик состоит из спана и кнопок, которые, при клике, должны увеличивать и уменьшать его значение на единицу.
 
-`<div id="counter">
+<div id="counter">
   <button type="button" data-action="decrement">-1</button>
   <span id="value">0</span>
   <button type="button" data-action="increment">+1</button>
-</div>`
+</div>
 
 Создана переменная `counterValue`, в которой будет храниться текущее значение счетчика, и инициализировано её значением `0`.
 Добавлены слушатели кликов на кнопки, внутри которых увеличивается или уменьшается значение счтетчика.
@@ -120,8 +120,8 @@ Elements: 5
 
 Написан скрипт, который при наборе текста в инпуте `input#name-input` (событие input) подставляет его текущее значение в `span#name-output`. Если инпут пустой, в спане будет отображаться строка "Anonymous".
 
-`<input type="text" id="name-input" placeholder="Please enter your name" />
-<h1>Hello, <span id="name-output">Anonymous</span>!</h1>`
+<input type="text" id="name-input" placeholder="Please enter your name" />
+<h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 
 ## Задание 6
 
@@ -138,7 +138,7 @@ Elements: 5
 
 Если введено подходящее количество символов, то `border` инпута становится зелёным, если неправильное - красным.
 Для добавления стилей, использованы CSS-классы `valid` и `invalid`, которые добавлены в исходные файлы задания.
-`
+
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -149,7 +149,7 @@ Elements: 5
 
 #validation-input.invalid {
   border-color: #f44336;
-}`
+}
 
 ## Задание 7
 
